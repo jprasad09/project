@@ -21,7 +21,7 @@ export function LandingPage() {
     <div className={styles.landing}>
       <div className={styles['search-area']}>
         <TopNav />
-        <img src={logo} className={styles.logo} alt="logo" />
+        <h1 className={styles.heading}>RateMyFood</h1>
         <SearchBar search={search} />
         <SearchSuggestions />
       </div>

@@ -25,7 +25,7 @@ export function SearchBar(props) {
                            onChange={(e) => setTerm(e.target.value)}
                            type="text"
                            value={term}
-                           placeholder="burgers, barbers, spas, handymen"
+                           placeholder="burgers, pizzas, drinks"
                     />
                 </p>
                 <div className="control">
